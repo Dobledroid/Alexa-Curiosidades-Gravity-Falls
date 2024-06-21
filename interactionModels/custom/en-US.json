@@ -1,0 +1,40 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "CuriosidadIntent",
+          "samples": [
+            "tell me a fun fact",
+            "tell me something about Gravity Falls",
+            "I want to know something about Gravity Falls",
+            "give me a Gravity Falls fact"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "gravity falls curiosities"
+    }
+  }
+}

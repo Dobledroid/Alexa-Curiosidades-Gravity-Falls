@@ -1,0 +1,91 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "development of a skill on gravity falls curiosities",
+          "examplePhrases": [
+            "Alexa, open gravity falls curiosities"
+          ],
+          "keywords": [],
+          "name": "gravity falls curiosities",
+          "description": "skill developed by a student from the Technological University of Huasteca Hidalgo, the theme is a practice skill 2 about curiosities of gravity falls",
+          "smallIconUri": "file://assets/images/en-US_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-US_largeIconUri.png"
+        },
+        "es-MX": {
+          "summary": "desarrollo de una skill sobre curiosidades de gravity falls",
+          "examplePhrases": [
+            "Alexa, Abre curiosidades gravity falls",
+            "curiosidades gravity falls"
+          ],
+          "keywords": [],
+          "name": "curiosidades gravity falls",
+          "description": "skill desarrollado por un alumno de la universidad tecnologica de la huasteca hidalguense, la tematica es una skill como practica 2 sobre curiosidades de gravity falls",
+          "smallIconUri": "file://assets/images/es-MX_smallIconUri.png",
+          "largeIconUri": "file://assets/images/es-MX_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "sourceLocaleForLanguages": [
+          {
+            "sourceLocale": "en-US",
+            "language": "en"
+          },
+          {
+            "sourceLocale": "es-MX",
+            "language": "es"
+          }
+        ],
+        "isActive": true
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "{\"ask_dist_username\":\"user\",\"ask_dist_password\":\"user\",\"ask_dist_testing_instructions\":\"Sample Testing Instructions.\"}",
+      "category": "CHILDRENS_MEMORY_GAMES",
+      "distributionMode": "PUBLIC",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:891377187442:function:f52349c2-387d-44a6-9f99-97a64a34fa88:Release_0"
+        },
+        "interfaces": [],
+        "locales": {},
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:891377187442:function:f52349c2-387d-44a6-9f99-97a64a34fa88:Release_0"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:891377187442:function:f52349c2-387d-44a6-9f99-97a64a34fa88:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:891377187442:function:f52349c2-387d-44a6-9f99-97a64a34fa88:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-US": {},
+        "es-MX": {}
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "shoppingKit": {
+        "isShoppingActionsEnabled": false,
+        "isAmazonAssociatesOnAlexaEnabled": false
+      },
+      "usesPersonalInfo": false
+    }
+  }
+}
